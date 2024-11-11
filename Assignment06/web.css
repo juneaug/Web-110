@@ -1,0 +1,80 @@
+body {  background: linear-gradient(to bottom, #FFFFFF, #0194b5); 
+    background-repeat: no-repeat;
+    background-color: #0194b5; 
+    color: #555555;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0; 
+    height: 100vh; 
+}     
+header {background-color: #29485d;
+    color: #FFFFFF; 
+    background-image: url(logo.png); 
+    background-position: right; 
+    background-repeat: no-repeat; 
+    line-height: normal; 
+    text-indent: 0;
+    height: 60px;          
+    text-align: center;   
+    padding-top: 15px;  
+} 
+nav { background-color: #FFFFFF; 
+    font-weight: bold;
+    text-align: center;        
+    padding: 1em; 
+}
+nav a { text-decoration: none;}
+main {
+    padding: 1px 20px 20px 20px; 
+    display: block; 
+}
+h2 { color: #407386; 
+    font-family: Georgia, 'Times New Roman', serif;
+    text-shadow: 1px 1px 1px #CCCCCC;
+}
+.web { color: #0194B5; 
+    font-weight: bold;
+} 
+h1 { margin-bottom: 0; 
+    font-family: Georgia, 'Times New Roman', serif;
+    margin-top: 0;
+}
+#contact { font-size: 90%;}
+footer { font-size: 75%; 
+    font-style: italic; 
+    text-align: center; 
+    font-family: Georgia, "Times New Roman", serif; 
+    padding: 2em;
+}
+li { line-height: 1.5;}
+ul { list-style-image: url(marker.gif);}
+dt { color: #0194B5;}
+h3 { color: #29485d; 
+    font-family: Georgia, "Times New Roman", serif;
+}
+#wrapper {
+    width: 80%;               
+    max-width: 2048px;        
+    min-width: 960px;   
+    margin: 0 auto;           
+    background-color: #FFFFFF; 
+    box-shadow: 0 0 3px 3px #333333; 
+    padding: 20px;    
+}
+#homehero {
+    height: 400px;                         
+    background-image: url('homehero.jpg'); 
+    background-size: 100% 100%;            
+    background-repeat: no-repeat;  
+}
+#trackshero {
+    height: 400px;                         
+    background-image: url('trackshero.jpg'); 
+    background-size: 100% 100%;            
+    background-repeat: no-repeat;          
+}
+#facultyhero {
+    height: 400px;                         
+    background-image: url('facultyhero.jpg'); 
+    background-size: 100% 100%;           
+    background-repeat: no-repeat;      
+}
