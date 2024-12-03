@@ -1,0 +1,153 @@
+body {
+    background: linear-gradient(to bottom, #75cebe, #707097); 
+    background-repeat: no-repeat;
+    background-color: #707097; 
+    color: #555555;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0; 
+    height: 100vh; 
+}     
+header {
+    background-color: #374B4A;
+    color: #FFFFFF; 
+    background-image: url(logo.png); 
+    background-position: right; 
+    background-repeat: no-repeat; 
+    line-height: normal; 
+    text-indent: 0;
+    height: 120px;          
+    text-align: left;   
+    padding-top: 30px;  
+} 
+header a:link, header a:visited {
+    color: white;             
+    text-decoration: none;   
+}
+header a:hover {
+    color: #8B8BAE;          
+}
+h1 a {
+    color: white;
+    text-decoration: none;
+}
+nav {
+    background-color: #FFFFFF; 
+    font-weight: bold;
+    text-align: center;        
+    padding: 0.30em; 
+    display: flex; 
+    justify-content: center;
+    font-size: 100%;  
+}
+nav a:link {
+    color: #526760;           
+    text-decoration: none;    
+}
+nav a:visited {
+    color: #52615c;           
+}
+nav a:hover {
+    color: #8B8BAE;           
+}
+nav ul {
+    list-style-type: none;
+    padding: 0; 
+    margin: 0;
+    display: flex; 
+    font-size: 1.2em;      
+}
+nav li {
+    margin-right: 30px;
+    display: inline;         
+    padding: 1em;  
+}
+main {
+    padding: 1px 20px 20px 20px; 
+    display: block; 
+    background-color: white; 
+    overflow: auto;   
+}
+main ul {    
+    padding: 0;              
+    margin: 0;           
+}
+
+h2 { 
+    color: #407386; 
+    font-family: Georgia, 'Times New Roman', serif;
+    text-shadow: 1px 1px 1px #CCCCCC;
+    text-align: center; 
+}
+h1 { 
+    margin-bottom: 0; 
+    font-family: Georgia, 'Times New Roman', serif;
+    margin-top: 0;
+    font-size: 2em;       
+    letter-spacing: 0.2em;  
+    margin-right: 35%;     
+    margin-left: 3em;       
+}
+#contact {
+    font-size: 90%;
+}
+footer { 
+    font-size: 75%; 
+    font-style: italic; 
+    text-align: center; 
+    font-family: Georgia, "Times New Roman", serif; 
+    padding: 2em;
+}
+li {
+    line-height: 1.5;
+}
+ 
+dt {
+    color: #0194B5;
+}
+h3 {
+    color: #29485d; 
+    font-family: Georgia, "Times New Roman", serif;
+}
+#wrapper {
+    width: 80%;               
+    max-width: 2048px;        
+    min-width: 960px;   
+    margin: 0 auto;           
+    background-color: #FFFFFF; 
+    box-shadow: 0 0 3px 3px #333333; 
+    padding: 20px;    
+    border: 1px solid #000033;
+}
+#homehero {
+    height: 400px;                         
+    background-image: url('videogamewal.webp'); 
+    background-size: 100% 100%;            
+    background-repeat: no-repeat;  
+}
+#trackshero {
+    height: 400px;                         
+    background-image: url('cyberpunk.avif'); 
+    background-size: 100% 100%;            
+    background-repeat: no-repeat;          
+}
+#facultyhero {
+    height: 400px;                         
+    background-image: url('write.webp'); 
+    background-size: 100% 100%;           
+    background-repeat: no-repeat;      
+}
+section {
+    float: left;           
+    width: 25%;          
+    padding-left: 2em;    
+    padding-right: 2em;    
+}
+form {
+    width: 100%;       
+    max-width: 600px;      
+    padding: 20px;           
+}
+
+* {
+    box-sizing: border-box;
+}
